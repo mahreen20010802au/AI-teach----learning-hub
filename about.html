@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Tech & AI Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation with Hamburger Support -->
+    <header class="navbar">
+        <a href="index.html" class="logo"><span class="logo-icon">⚡</span> AI<strong>Hub</strong></a>
+
+        <!-- Checkbox Hack for Pure CSS Mobile Menu -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        
+        <!-- Hamburger Toggle Button -->
+        <label for="nav-toggle" class="hamburger" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="courses.html">Courses & Roadmaps</a>
+            <a href="contact.html" class="nav-btn">Register Now</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section class="card">
+            <div class="section-header">
+                <h2>About Our Mission</h2>
+                <div class="line"></div>
+            </div>
+            <p>Tech & AI Learning Hub is dedicated to providing modern IT skills to young developers and students. Our goal is to transform theoretical learning into practical, portfolio-ready web projects powered by modern Artificial Intelligence tools.</p>
+
+            <!-- Grid with 2 columns top & 1 centered bottom -->
+            <div class="grid-3" style="grid-template-columns: repeat(2, 1fr); gap: 22px;">
+                
+                <!-- Card 1 -->
+                <div class="info-box hover-lift">
+                    <div class="card-img-wrapper">
+                        <img src="./f3ef91ff-4479-49ed-99c7-da1d21197bb6.jpg" alt="Our Vision" class="card-img">
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>Creating a tech-ready generation equipped with cutting-edge web & AI competencies.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="info-box hover-lift">
+                    <div class="card-img-wrapper">
+                        <img src="./images.jpg" alt="AI First Approach" class="card-img">
+                    </div>
+                    <h3>AI First Approach</h3>
+                    <p>Integrating AI assistance into every step of learning, coding, and design.</p>
+                </div>
+
+                <!-- Card 3: Centered Below -->
+                <div class="info-box hover-lift" style="grid-column: 1 / -1; max-width: 500px; margin: 0 auto; width: 100%;">
+                    <div class="card-img-wrapper">
+                        <img src="./39340cec-0497-43b4-b19b-75d9d7692c52.jpg" alt="Global Standards" class="card-img">
+                    </div>
+                    <h3>Global Standards</h3>
+                    <p>Following industry best practices for GitHub deployment and responsive design.</p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <!-- Floating WhatsApp Support Button -->
+    <a href="https://wa.me/923000000000" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <span class="whatsapp-icon">💬</span>
+        <span class="whatsapp-tooltip">Need Help? Chat with Us</span>
+    </a>
+
+    <!-- Original Footer -->
+    <footer>
+        <p>&copy; 2026 Tech & AI Learning Hub. Built for Bano Qabil Web Development Task.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses & Roadmaps - Tech & AI Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation with Hamburger Support -->
+    <header class="navbar">
+        <a href="index.html" class="logo"><span class="logo-icon">⚡</span> AI<strong>Hub</strong></a>
+
+        <!-- Checkbox Hack for Pure CSS Mobile Menu -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        
+        <!-- Hamburger Toggle Button -->
+        <label for="nav-toggle" class="hamburger" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="courses.html" class="active">Courses & Roadmaps</a>
+            <a href="contact.html" class="nav-btn">Register Now</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        
+        <!-- Featured Learning Tracks -->
+        <section class="card">
+            <div class="section-header">
+                <h2>Featured Learning Tracks</h2>
+                <div class="line"></div>
+            </div>
+            
+            <!-- Grid with 2 columns top & 1 centered bottom -->
+            <div class="grid-3" style="grid-template-columns: repeat(2, 1fr); gap: 22px;">
+                
+                <!-- Card 1: Web Dev -->
+                <div class="info-box hover-lift">
+                    <div class="card-img-wrapper">
+                        <img src="./f3ef91ff-4479-49ed-99c7-da1d21197bb6.jpg" alt="Web Development Masterclass" class="card-img">
+                    </div>
+                    <span class="tag web">Front-End</span>
+                    <h3>Web Development Masterclass</h3>
+                    <p>HTML5, CSS3, Flexbox, CSS Grid, Responsive Web Design & GitHub Pages.</p>
+                </div>
+
+                <!-- Card 2: Prompt Engineering -->
+                <div class="info-box hover-lift">
+                    <div class="card-img-wrapper">
+                        <img src="./images.jpg" alt="Prompt Engineering & LLMs" class="card-img">
+                    </div>
+                    <span class="tag ai">Artificial Intelligence</span>
+                    <h3>Prompt Engineering & LLMs</h3>
+                    <p>Learn ChatGPT Prompting, Model Tuning, AI Assistants & Code Automation.</p>
+                </div>
+
+                <!-- Card 3: Python AI (Centered Below) -->
+                <div class="info-box hover-lift" style="grid-column: 1 / -1; max-width: 500px; margin: 0 auto; width: 100%;">
+                    <div class="card-img-wrapper">
+                        <img src="./39340cec-0497-43b4-b19b-75d9d7692c52.jpg" alt="Python AI Fundamentals" class="card-img">
+                    </div>
+                    <span class="tag data">Data & Python</span>
+                    <h3>Python AI Fundamentals</h3>
+                    <p>Python Programming, Data Analysis, and Neural Network basics.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Course Fee Table -->
+        <section class="card">
+            <div class="section-header">
+                <h2>BootCamp Schedule & Fee Structure</h2>
+                <div class="line"></div>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Program Name</th>
+                            <th>Duration</th>
+                            <th>Class Format</th>
+                            <th>Includes</th>
+                            <th>Fee (PKR)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>AI-Assisted Web Dev</strong></td>
+                            <td>4 Weeks</td>
+                            <td>Live + Recorded</td>
+                            <td>Certificates + GitHub Hosting</td>
+                            <td>Rs. 2,500</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Prompt Engineering Specialist</strong></td>
+                            <td>3 Weeks</td>
+                            <td>Online Hands-on</td>
+                            <td>Prompt Templates + Projects</td>
+                            <td>Rs. 3,000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Full-Stack AI Developer Pass</strong></td>
+                            <td>8 Weeks</td>
+                            <td>Mentorship Pass</td>
+                            <td>1-on-1 Code Reviews + Placement</td>
+                            <td>Rs. 6,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Floating WhatsApp Support Button -->
+    <a href="https://wa.me/923000000000" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <span class="whatsapp-icon">💬</span>
+        <span class="whatsapp-tooltip">Need Help? Chat with Us</span>
+    </a>
+
+    <!-- Original Footer -->
+    <footer>
+        <p>&copy; 2026 Tech & AI Learning Hub. Built for Bano Qabil Web Development Task.</p>
+    </footer>
+
+</body>
+</html>

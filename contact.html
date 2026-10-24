@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now - Tech & AI Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation with Hamburger Support -->
+    <header class="navbar">
+        <a href="index.html" class="logo"><span class="logo-icon">⚡</span> AI<strong>Hub</strong></a>
+
+        <!-- Checkbox Hack for Pure CSS Mobile Menu -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        
+        <!-- Hamburger Toggle Button -->
+        <label for="nav-toggle" class="hamburger" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="courses.html">Courses & Roadmaps</a>
+            <a href="contact.html" class="nav-btn active">Register Now</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section class="card">
+            <div class="section-header">
+                <h2>Join Tech & AI BootCamp</h2>
+                <div class="line"></div>
+            </div>
+            <p class="section-desc">Fill out the registration form below to secure your seat for upcoming AI & Web Development tracks.</p>
+
+            <!-- Registration Form -->
+            <form action="#" method="POST">
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="e.g. name@example.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="course">Select Interested Program</label>
+                    <select id="course" name="course" required>
+                        <option value="" disabled selected>Choose a track...</option>
+                        <option value="web-dev">Web Development Masterclass</option>
+                        <option value="prompt-eng">Prompt Engineering & LLMs</option>
+                        <option value="python-ai">Python AI Fundamentals</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Preferred Mode of Learning</label>
+                    <div class="radio-options">
+                        <label><input type="radio" name="learning_mode" value="online" checked> Online (Live Interactive)</label>
+                        <label><input type="radio" name="learning_mode" value="recorded"> Self-Paced (Recorded Sessions)</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Required Facilities</label>
+                    <div class="checkbox-options">
+                        <label><input type="checkbox" name="facility" value="certificate"> Verified Certificate</label>
+                        <label><input type="checkbox" name="facility" value="github"> GitHub Hosting Support</label>
+                        <label><input type="checkbox" name="facility" value="mentorship"> 1-on-1 Mentorship</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message / Queries (Optional)</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Any specific questions about the course?"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit glow-btn">Submit Application</button>
+
+            </form>
+        </section>
+    </div>
+
+    <!-- Floating WhatsApp Support Button -->
+    <a href="https://wa.me/923000000000" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <span class="whatsapp-icon">💬</span>
+        <span class="whatsapp-tooltip">Need Help? Chat with Us</span>
+    </a>
+
+    <!-- Original Footer -->
+    <footer>
+        <p>&copy; 2026 Tech & AI Learning Hub. Built for Bano Qabil Web Development Task.</p>
+    </footer>
+
+</body>
+</html>
